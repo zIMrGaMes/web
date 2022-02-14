@@ -92,8 +92,8 @@
                <div class="col-lg-9">
                   <div class="right_header_info">
                      <ul>
-                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">987-654-3210</a></li>
-                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">demo@gmail.com</a></li>
+                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">+34 683 23 35 54</a></li>
+                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">info@brumbrummotors.com</a></li>
                         <li><img src="images/search_icon.png" alt="#" /></li>
                          <li>
                            <button type="button" id="sidebarCollapse">
@@ -112,12 +112,12 @@
             <div class="row">
                <div class="col-md-5">
                   <div class="full slider_cont_section">
-                     <h4>Welcome</h4>
+                     <h4>Bienvenido a:</h4>
                      <h3>Brum Brum</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                     <p>En este concesionario podrás encontrar todo tipo de coches (Deportivos, eléctricos, híbridos, confort, etc)</p>
                      <div class="button_section">
-                        <a href="#">Book Now</a>
-                        <a href="about.html">About Us</a>
+                        <a href="coches.php">Coches</a>
+                        <a href="about.php">Sobre la empresa</a>
                      </div>
                   </div>
                </div>
@@ -408,9 +408,9 @@
               <div class="col-md-6">
                 <div class="full">
                    <ul class="social_links">
-                      <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="https://www.instagram.com/nahuu.rb_/"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a></li>
+                      <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
                    </ul>
                 </div>
               </div>
@@ -447,9 +447,9 @@
               </div>
               <div class="col-md-4">
                  <div class="full">
-                   <h4 class="widget_heading">Contact Details</h4>
+                   <h4 class="widget_heading">Contacto</h4>
                    <div class="full cont_footer">
-                     <p><strong>AVALON Car : Adderess</strong><br><br>Newyork 10012, USA<br>Phone: +987 654 3210<br>demo@gmail.com</p>
+                     <p><strong>Brum Brum Motors: Dirección postal</strong><br><br>Calle Era 28, 07198, España<br>Teléfono: +34 683 23 35 54<br>info@brumbrummotors.com</p>
                    </div>
                  </div>
               </div>
