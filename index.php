@@ -194,7 +194,7 @@
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
                   <h3 class="main_heading _left_side margin_top_30">Nuestros coches</h3>
-                  <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
+                  <p class="large">Aqui podras encontrar nuestra amplio catálogo</p>
                </div>
                <div class="full button_section margin_top_30">
                     <a href="#">Ver mas</a>
