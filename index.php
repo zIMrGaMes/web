@@ -160,7 +160,7 @@
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
                   <h3 class="main_heading _left_side margin_top_30">Sobre Nosotros</h3>
-                  <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
+                  <p class="large">Somos un concesionario donde puedes encontrar todo tipo de coches...</p>
                </div>
                <div class="full button_section margin_top_30">
                         <a href="#">Leer mas</a>
@@ -194,7 +194,7 @@
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
                   <h3 class="main_heading _left_side margin_top_30">Nuestros coches</h3>
-                  <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
+                  <p class="large">Aqui podras observar nuestro amplio catálogo</p>
                </div>
                <div class="full button_section margin_top_30">
                     <a href="#">Ver mas</a>
@@ -302,7 +302,7 @@
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Somos un concesionario, donde podras encontrar todo tipo de coches... </i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
@@ -320,7 +320,7 @@
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Somos un concesionario donde puedes encontrar todo tipo de coches...</i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
@@ -384,6 +384,12 @@
                         </form>
                     </div>
                  </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="full map_section">
+                     <div id="map">
+                     </div>
+                   </div>
               </div>
             </div>
         </div>
