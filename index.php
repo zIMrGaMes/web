@@ -355,19 +355,19 @@
                         <form>
                           <fieldset class="row">
                             <div class="full field">
-                              <input type="text" placeholder="Your Name" name="name" />
+                              <input type="text" placeholder="Nombre" name="nombre" />
                             </div>
                             <div class="full field">
                               <input type="email" placeholder="Email" name="email" />
                           </div>
                             <div class="full field">
-                              <input type="text" placeholder="Phone" name="number" />
+                              <input type="text" placeholder="Teléfono" name="telefono" />
                             </div>
                             <div class="full field">
-                              <textarea placeholder="Message"></textarea>
+                              <textarea placeholder="Mensaje"></textarea>
                             </div>
                             <div class="full center">
-                              <button class="submit_bt">Send</button>
+                              <button class="submit_bt">Enviar</button>
                             </div>
                           </fieldset>
                         </form>
