@@ -56,7 +56,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#why_choose_us">why Choose Us</a>
+                    <a href="#por_que_elegirnos">Por que elegirnos</a>
                 </li>
                 <li>
                     <a href="#testimonial">Testimonial</a>
@@ -213,7 +213,7 @@
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading">Why Choose Us</h2>
+                 <h2 class="heading_main orange_heading">Por que elegirnos</h2>
                </div>
              </div>
            </div>
@@ -222,7 +222,7 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
-                        <h4>FINANCING MADE EASY</h4>
+                        <h4>FINANCIAMIENTO FÁCIL</h4>
                         <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                     </div>
                  </div>
@@ -231,7 +231,7 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="images/c2_icon.png" />
-                        <h4>WIDE RANGE OF BRANDS</h4>
+                        <h4>AMPLIA GAMA DE MARCAS</h4>
                         <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                     </div>
                  </div>
@@ -240,7 +240,7 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="images/c3_icon.png" />
-                        <h4>TRUSTED BY THOUSANDS</h4>
+                        <h4>CONFIADO POR MILES</h4>
                         <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
                     </div>
                  </div>
