@@ -350,7 +350,6 @@
              </div>
            </div>
            <div class="row">
-              <div class="col-md-6">
                  <div class="full">
                     <div class="contact_form">
                         <form>
@@ -372,7 +371,6 @@
                             </div>
                           </fieldset>
                         </form>
-                    </div>
                  </div>
               </div>
             </div>
