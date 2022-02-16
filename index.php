@@ -163,7 +163,7 @@
                   <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
                </div>
                <div class="full button_section margin_top_30">
-                        <a href="#">Read More</a>
+                        <a href="#">Leer mas</a>
                      </div>
             </div>
 
@@ -197,7 +197,7 @@
                   <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
                </div>
                <div class="full button_section margin_top_30">
-                    <a href="#">See More</a>
+                    <a href="#">Ver mas</a>
                   </div>
             </div>
 
@@ -247,7 +247,7 @@
               </div>
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section margin_top_30">
-                    <a class="margin_top_30" href="#">Read More</a>
+                    <a class="margin_top_30" href="#">Leer mas</a>
                   </div>
               </div>
            </div>
@@ -261,7 +261,7 @@
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading">Testimonials</h2>
+                 <h2 class="heading_main orange_heading">Testimonios</h2>
                </div>
              </div>
            </div>
