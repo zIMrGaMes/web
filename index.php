@@ -223,7 +223,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
                         <h4>FINANCIAMIENTO FÁCIL</h4>
-                        <p>Ofrecemos planes de financiamiento de bajo costo de comisión de hasta 5 años</p>
+                        <p>Ofrecemos planes de financiamiento de bajo costo de comisión de hasta 5 años.</p>
                     </div>
                  </div>
               </div>
@@ -232,7 +232,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c2_icon.png" />
                         <h4>AMPLIA GAMA DE MARCAS</h4>
-                        <p>Trabajamos con todo tipo de marcas de coches</p>
+                        <p>Trabajamos con todo tipo de marcas de coches.</p>
                     </div>
                  </div>
               </div>
