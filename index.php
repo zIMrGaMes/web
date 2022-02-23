@@ -419,11 +419,8 @@
                  </div>
                  <div class="full f_menu">
                     <ul>
-                       <li><a href="#">Home</a></li>
                        <li><a href="about.php">Sobre nosotros</a></li>
-                       <li><a href="#">Our Cars</a></li>
-                       <li><a href="#">Services</a></li>
-                       <li><a href="#">Testimonial</a></li>
+                       <li><a href="coches.php">Nuestros coche</a></li>
                     </ul>
                  </div>
               </div>
