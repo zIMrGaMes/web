@@ -223,7 +223,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
                         <h4>FINANCIAMIENTO FÁCIL</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <p></p>
                     </div>
                  </div>
               </div>
@@ -232,7 +232,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c2_icon.png" />
                         <h4>AMPLIA GAMA DE MARCAS</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <p></p>
                     </div>
                  </div>
               </div>
@@ -241,7 +241,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c3_icon.png" />
                         <h4>CONFIADO POR MILES</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <p></p>
                     </div>
                  </div>
               </div>
