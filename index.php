@@ -398,24 +398,7 @@
               </div>
               <div class="col-md-4">
                  <div class="full">
-                    <h4 class="widget_heading">SUBSCRIBE</h4>
-                 </div>
-                 <div class="full subribe_form">
-                    <form>
-                      <fieldset>
-                         <div class="field">
-                           <input type="email" name="mail" placeholder="Enter your email" />
-                         </div>
-                         <div class="field">
-                           <button class="submit_bt">Sumbit</button>
-                         </div>
-                      </fieldset>
-                    </form>
-                 </div>
-              </div>
-              <div class="col-md-4">
-                 <div class="full">
-                   <h4 class="widget_heading">Usefull Links</h4>
+                   <h4 class="widget_heading">Enlaces de interés</h4>
                  </div>
                  <div class="full f_menu">
                     <ul>
