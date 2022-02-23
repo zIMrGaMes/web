@@ -223,7 +223,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
                         <h4>FINANCIAMIENTO FÁCIL</h4>
-                        <p></p>
+                        <p>ç</p>
                     </div>
                  </div>
               </div>
