@@ -447,7 +447,7 @@
               <div class="row">
                   <div class="col-md-12">
                      <div class="full">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                        <p>© 2022 All Rights Reserved. Design by <a href="https://html.design">Brum Brum Motors</a></p>
                      </div>
                   </div>
               </div>
