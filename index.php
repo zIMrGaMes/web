@@ -447,7 +447,7 @@
               <div class="row">
                   <div class="col-md-12">
                      <div class="full">
-                        <p>© 2022 All Rights Reserved. Design by <a href="https://html.design">Brum Brum Motors</a></p>
+                        <p>© 2022 Todos los derechos reservados. Diseñado por <a href="https://html.design">Brum Brum Motors</a></p>
                      </div>
                   </div>
               </div>
