@@ -247,7 +247,7 @@
               </div>
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section margin_top_30">
-                    <a class="margin_top_30" href="#">Leer mas</a>
+                    <a class="margin_top_30" href="">Leer mas</a>
                   </div>
               </div>
            </div>
