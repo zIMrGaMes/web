@@ -53,7 +53,7 @@
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="about.php">About</a>
                 </li>
                 <li>
                     <a href="#por_que_elegirnos">Por que elegirnos</a>
@@ -62,7 +62,7 @@
                     <a href="#testimonial">Testimonial</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
 
@@ -223,7 +223,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
                         <h4>FINANCIAMIENTO FÁCIL</h4>
-                        <p></p>
+                        <p>Ofrecemos planes de financiamiento de bajo costo de comisión de hasta 5 años.</p>
                     </div>
                  </div>
               </div>
@@ -232,7 +232,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c2_icon.png" />
                         <h4>AMPLIA GAMA DE MARCAS</h4>
-                        <p></p>
+                        <p>Trabajamos con todo tipo de marcas de coches.</p>
                     </div>
                  </div>
               </div>
@@ -241,13 +241,13 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c3_icon.png" />
                         <h4>CONFIADO POR MILES</h4>
-                        <p></p>
+                        <p>Llevamos mas de 7 años en el mercado y estamos recomendados por miles de clientes.</p>
                     </div>
                  </div>
               </div>
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section margin_top_30">
-                    <a class="margin_top_30" href="#">Leer mas</a>
+                    <a class="margin_top_30" href="">Leer mas</a>
                   </div>
               </div>
            </div>
@@ -285,7 +285,7 @@
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
@@ -398,32 +398,12 @@
               </div>
               <div class="col-md-4">
                  <div class="full">
-                    <h4 class="widget_heading">SUBSCRIBE</h4>
-                 </div>
-                 <div class="full subribe_form">
-                    <form>
-                      <fieldset>
-                         <div class="field">
-                           <input type="email" name="mail" placeholder="Enter your email" />
-                         </div>
-                         <div class="field">
-                           <button class="submit_bt">Sumbit</button>
-                         </div>
-                      </fieldset>
-                    </form>
-                 </div>
-              </div>
-              <div class="col-md-4">
-                 <div class="full">
-                   <h4 class="widget_heading">Usefull Links</h4>
+                   <h4 class="widget_heading">Enlaces de interés</h4>
                  </div>
                  <div class="full f_menu">
                     <ul>
-                       <li><a href="#">Home</a></li>
-                       <li><a href="#">About</a></li>
-                       <li><a href="#">Our Cars</a></li>
-                       <li><a href="#">Services</a></li>
-                       <li><a href="#">Testimonial</a></li>
+                       <li><a href="about.php">Sobre nosotros</a></li>
+                       <li><a href="coches.php">Nuestros coche</a></li>
                     </ul>
                  </div>
               </div>
@@ -447,7 +427,7 @@
               <div class="row">
                   <div class="col-md-12">
                      <div class="full">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                        <p>© 2022 Todos los derechos reservados. Diseñado por <a href="https://html.design">Brum Brum Motors</a></p>
                      </div>
                   </div>
               </div>
