@@ -132,8 +132,6 @@
             </div>
           </div>
         </div>
-        <p class="u-text u-text-default u-text-10">Image from <a href="https://www.freepik.com/free-photos-vectors/background" target="_blank" style="font-weight: bold;">Freepik</a>
-        </p>
       </div>
     </section>
     <section class="u-align-left u-clearfix u-image u-section-2" id="carousel_8862" data-image-width="1600" data-image-height="939">
@@ -158,8 +156,6 @@
               <div class="u-align-left u-container-style u-layout-cell u-size-30-xl u-size-32-lg u-size-32-md u-size-32-sm u-size-32-xs u-white u-layout-cell-2">
                 <div class="u-container-layout u-valign-top u-container-layout-2">
                   <p class="u-text u-text-2">Brum Brum Motors, dirigida por Nahuel Ros y Tomas Carrasco es una empresa dedicada a la venta de automoviles, somos profesionales en el sector y cuando contrate nuestro servicio estará comprando calidad.</p>
-                  <p class="u-align-left u-text u-text-3">Image from <a href="https://www.freepik.com/photos/background" class="u-active-none u-border-1 u-border-black u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" target="_blank">Freepik</a>
-                  </p>
                   <a href="https://nicepage.com/k/test-website-templates" class="u-active-black u-border-2 u-border-active-black u-border-black u-border-hover-black u-btn u-button-style u-hover-black u-none u-text-active-white u-text-body-color u-text-hover-white u-btn-2">learn more</a>
                 </div>
               </div>
