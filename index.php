@@ -53,7 +53,7 @@
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
+                    <a href="about/index.php">About</a>
                 </li>
                 <li>
                     <a href="#por_que_elegirnos">Por que elegirnos</a>
@@ -117,7 +117,7 @@
                      <p>En este concesionario podrás encontrar todo tipo de coches (Deportivos, eléctricos, híbridos, confort, etc)</p>
                      <div class="button_section">
                         <a href="coches.php">Coches</a>
-                        <a href="about.php">Sobre la empresa</a>
+                        <a href="about/index.php">Sobre la empresa</a>
                      </div>
                   </div>
                </div>
@@ -402,7 +402,7 @@
                  </div>
                  <div class="full f_menu">
                     <ul>
-                       <li><a href="about.php">Sobre nosotros</a></li>
+                       <li><a href="about/index.php">Sobre nosotros</a></li>
                        <li><a href="coches.php">Nuestros coche</a></li>
                     </ul>
                  </div>
