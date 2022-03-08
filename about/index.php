@@ -20,7 +20,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Site1",
-		"logo": "images/default-logo.png"
+	
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Casa">
@@ -28,9 +28,7 @@
     <meta property="og:type" content="website">
   </head>
   <body data-home-page="Casa.html" data-home-page-title="Casa" class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-006e"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
-          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
-        </a>
+        
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
             <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
