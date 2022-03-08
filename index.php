@@ -56,13 +56,13 @@
                     <a href="about/index.php">Sobre Nosotros</a>
                 </li>
                 <li>
-                    <a href="#por_que_elegirnos">Por que elegirnos</a>
+                    <a href="#por_que_elegirnos">¿Por que elegirnos?</a>
                 </li>
                 <li>
-                    <a href="#testimonial">Testimonial</a>
+                    <a href="#testimonial">Testimonios</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="contact.php">Contáctanos</a>
                 </li>
             </ul>
 
