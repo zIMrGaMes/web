@@ -53,7 +53,7 @@
                     <a href="#home">Página principal</a>
                 </li>
                 <li>
-                    <a href="about/index.php">About</a>
+                    <a href="about/index.php">Sobre Nosotros</a>
                 </li>
                 <li>
                     <a href="#por_que_elegirnos">Por que elegirnos</a>
