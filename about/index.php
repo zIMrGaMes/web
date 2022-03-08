@@ -144,7 +144,7 @@
               <div class="u-align-left u-container-style u-layout-cell u-size-28-lg u-size-28-md u-size-28-sm u-size-28-xs u-size-30-xl u-white u-layout-cell-1">
                 <div class="u-container-layout u-valign-top u-container-layout-1">
                   <div alt="" class="u-image u-image-circle u-preserve-proportions u-image-1" data-image-width="600" data-image-height="600"></div>
-                  <h1 class="u-text u-text-1">about me</h1>
+                  <h1 class="u-text u-text-1">Sobre Nosotros</h1>
                   <div class="u-social-icons u-spacing-30 u-social-icons-1">
                     <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b57b"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-b57b"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
                     </a>
@@ -157,7 +157,7 @@
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-30-xl u-size-32-lg u-size-32-md u-size-32-sm u-size-32-xs u-white u-layout-cell-2">
                 <div class="u-container-layout u-valign-top u-container-layout-2">
-                  <p class="u-text u-text-2">Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget.</p>
+                  <p class="u-text u-text-2">Brum Brum Motors, dirigida por Nahuel Ros y Tomas Carrasco es una empresa dedicada a la venta de automoviles, somos profesionales en el sector y cuando contrate nuestro servicio estará comprando calidad.</p>
                   <p class="u-align-left u-text u-text-3">Image from <a href="https://www.freepik.com/photos/background" class="u-active-none u-border-1 u-border-black u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" target="_blank">Freepik</a>
                   </p>
                   <a href="https://nicepage.com/k/test-website-templates" class="u-active-black u-border-2 u-border-active-black u-border-black u-border-hover-black u-btn u-button-style u-hover-black u-none u-text-active-white u-text-body-color u-text-hover-white u-btn-2">learn more</a>
