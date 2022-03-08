@@ -61,9 +61,9 @@
       </div></header>
     <section class="u-align-center u-clearfix u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-section-1" id="carousel_bf94">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h2 class="u-text u-text-1">Contact Us</h2>
+        <h2 class="u-text u-text-1">Sobre Nosotros</h2>
         <div class="u-border-7 u-border-palette-2-base u-line u-line-horizontal u-line-1"></div>
-        <p class="u-text u-text-2">We align leaders around a shared purpose and strategic story that catalyzes their business and brand to take action.</p>
+        <p class="u-text u-text-2">Somos un concesionario de coches muy profesional y que tiene una amplia variedad.</p>
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
@@ -80,8 +80,8 @@
                     <div class="u-layout-row">
                       <div class="u-align-center u-container-style u-layout-cell u-palette-5-dark-3 u-size-30 u-layout-cell-2">
                         <div class="u-container-layout u-valign-middle u-container-layout-2">
-                          <h5 class="u-text u-text-grey-40 u-text-3">Contact Us</h5>
-                          <p class="u-text u-text-4">Contact us for a quote. Help or to join the team.</p>
+                          <h5 class="u-text u-text-grey-40 u-text-3">Contáctanos</h5>
+                          <p class="u-text u-text-4">Te responderemos en menos de 24 horas.</p>
                           <div class="u-social-icons u-spacing-10 u-social-icons-1">
                             <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-aea6"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-aea6" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
                             </a>
@@ -100,8 +100,8 @@
 </g><g><g><path d="M256,90c-49.626,0-90,40.374-90,90c0,49.309,39.717,90,90,90c50.903,0,90-41.233,90-90C346,130.374,305.626,90,256,90z     M256,240.2c-33.257,0-60.2-27.033-60.2-60.2c0-33.084,27.116-60.2,60.2-60.2s60.1,27.116,60.1,60.2    C316.1,212.683,289.784,240.2,256,240.2z"></path>
 </g>
 </g></svg></span>
-                          <h5 class="u-text u-text-grey-40 u-text-5">Address:</h5>
-                          <p class="u-text u-text-6">121 Rock Sreet, 21 Avenue, <br>New York, NY 92103-9000
+                          <h5 class="u-text u-text-grey-40 u-text-5">Dirección:</h5>
+                          <p class="u-text u-text-6">Camino de Reyes 103, <br>Palma de Mallorca, Baleares
                           </p>
                         </div>
                       </div>
@@ -112,16 +112,16 @@
                       <div class="u-container-style u-layout-cell u-palette-5-dark-3 u-size-30 u-layout-cell-4">
                         <div class="u-container-layout u-valign-middle u-container-layout-4"><span class="u-border-3 u-border-grey-50 u-icon u-icon-circle u-spacing-20 u-text-grey-40 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 479.058 479.058" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1cae"></use></svg><svg class="u-svg-content" viewBox="0 0 479.058 479.058" id="svg-1cae"><path d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"></path></svg></span>
                           <h5 class="u-align-center u-text u-text-grey-40 u-text-7">Email:</h5>
-                          <a href="https://nicepage.com/k/adult-website-templates" class="u-border-active-none u-border-hover-none u-btn u-btn-rectangle u-button-style u-none u-text-body-alt-color u-text-hover-palette-2-base u-btn-1">hello@company.com</a>
-                          <a href="https://nicepage.com/c/tiles-website-templates" class="u-border-active-none u-border-hover-none u-btn u-btn-rectangle u-button-style u-none u-text-body-alt-color u-text-hover-palette-2-base u-btn-2">support@company.com</a>
+                          <a href="https://nicepage.com/k/adult-website-templates" class="u-border-active-none u-border-hover-none u-btn u-btn-rectangle u-button-style u-none u-text-body-alt-color u-text-hover-palette-2-base u-btn-1">info@brumbrummotors.com</a>
+                          <a href="https://nicepage.com/c/tiles-website-templates" class="u-border-active-none u-border-hover-none u-btn u-btn-rectangle u-button-style u-none u-text-body-alt-color u-text-hover-palette-2-base u-btn-2">support@brumbrummotors.com</a>
                         </div>
                       </div>
                       <div class="u-align-center u-container-style u-layout-cell u-palette-5-dark-3 u-right-cell u-size-30 u-layout-cell-5">
                         <div class="u-container-layout u-valign-middle u-container-layout-5"><span class="u-border-3 u-border-grey-15 u-icon u-icon-circle u-spacing-20 u-text-grey-40 u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 384 384" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0cbe"></use></svg><svg class="u-svg-content" viewBox="0 0 384 384" x="0px" y="0px" id="svg-0cbe" style="enable-background:new 0 0 384 384;"><g><g><path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.906-3.719-23.323-0.833-30.438,6.417l-43.177,32.594    c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448    c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.812C13.823,0,0,13.823,0,30.812    C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z     M362.667,353.188c0,5.229-4.25,9.479-9.479,9.479c-182.99,0-331.854-148.865-331.854-331.854c0-5.229,4.25-9.479,9.479-9.479    h70.521c5.229,0,9.479,4.25,9.479,9.479c0,25.802,4.052,51.125,11.979,75.115c1.104,3.542,0.208,7.208-3.375,10.938L82.75,165.427    c-2.458,3.26-2.844,7.625-1,11.26c29.927,58.823,66.292,95.188,125.531,125.542c3.604,1.885,8.021,1.49,11.292-0.979    l49.677-37.635c2.51-2.51,6.271-3.406,9.667-2.25c24.156,7.979,49.479,12.021,75.271,12.021c5.229,0,9.479,4.25,9.479,9.479    V353.188z"></path>
 </g>
 </g></svg></span>
-                          <h5 class="u-text u-text-grey-40 u-text-8">Call us:</h5>
-                          <p class="u-text u-text-9">1 (234) 567-891 <br>1 (234) 987-654
+                          <h5 class="u-text u-text-grey-40 u-text-8">Llámenos:</h5>
+                          <p class="u-text u-text-9">+34 687005345 <br>+34 627654532
                           </p>
                         </div>
                       </div>
