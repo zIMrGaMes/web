@@ -50,7 +50,7 @@
             <ul class="list-unstyled components">
                 
                 <li class="active">
-                    <a href="#home">Home</a>
+                    <a href="#home">Página principal</a>
                 </li>
                 <li>
                     <a href="about/index.php">About</a>
