@@ -345,7 +345,7 @@
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading">Contact Us</h2>
+                 <h2 class="heading_main orange_heading">Contáctanos</h2>
                </div>
              </div>
            </div>
