@@ -50,8 +50,10 @@
                                     header("Location: gracias.php");
                                  };
                            }
-
+                           $result = $pdo->prepare("SELECT * FROM opiniones");
+                           Alert($result)
                            ?>
+
       <!-- loader  
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="" /></div>
@@ -384,18 +386,18 @@
                            $mensaje="";
 
                            if (isset($_GET['id'])){
-                           $id = $_GET['id'];
-                           $statement = $pdo->prepare("SELECT * FROM contacto");
-                           $statement->bindParam(1, $id);
-                           if ($statement->execute()) {
+                              $id = $_GET['id'];
+                              $statement = $pdo->prepare("SELECT * FROM contacto");
+                              $statement->bindParam(1, $id);
+                              if ($statement->execute()) {
 
-                           foreach ($statement->fetchAll() as $row) {
-                              $nom = $row['nom'];
-                              $email = $row['email'];
-                              $telefono = $row['telefono'];
-                              $mensaje = $row['mensaje'];
-                           }
-                           }
+                                 foreach ($statement->fetchAll() as $row) {
+                                    $nom = $row['nom'];
+                                    $email = $row['email'];
+                                    $telefono = $row['telefono'];
+                                    $mensaje = $row['mensaje'];
+                                 }
+                              }
                            }
                            ?>
                            <div class="full field">
