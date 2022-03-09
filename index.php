@@ -297,7 +297,7 @@
                                <li data-target="#testimonial_slider" data-slide-to="1" ></li>
                                <li data-target="#testimonial_slider" data-slide-to="2" ></li>
                            </ul>
-                     <!-- The slideshow -->
+                     <!-- The slideshow
                      <div class="carousel-inner">
 
                      <?php
@@ -366,7 +366,7 @@
            </div>
         </div>
       </section>
-      <!-- end section -->
+      end section -->
 
       <!-- section -->
       <section id="contact" class="dark_bg_blue layout_padding cross_layout padding_top_0 margin_top_0">
