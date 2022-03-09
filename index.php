@@ -50,7 +50,8 @@
                                     header("Location: gracias.php");
                                  };
                            }
-
+                           $result = $pdo->prepare("SELECT * FROM opiniones");
+                           Alert($result)
                            ?>
 
       <!-- loader  
@@ -294,33 +295,26 @@
                     <!-- Indicators -->
                            <ul class="carousel-indicators">
                                <li data-target="#testimonial_slider" data-slide-to="0" class="active"></li>
-                               <li data-target="#testimonial_slider" data-slide-to="1" ></li>
-                               <li data-target="#testimonial_slider" data-slide-to="2" ></li>
+                               <li data-target="#testimonial_slider" data-slide-to="1"></li>
+                               <li data-target="#testimonial_slider" data-slide-to="2"></li>
                            </ul>
-                     <!-- The slideshow
+                     <!-- The slideshow -->
                      <div class="carousel-inner">
-
-                     <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 1";
-                                       $row = $pdo->query($sql)
-                                       echo $row['nombre']
-                                    ?>
-
-                              <div class="carousel-item active">
-                              <div class="testomonial_section">
-                                 <div class="full center">
-                                   <div class="client_img">
-                                     <img src="images/testimonial.png" alt="#" />
-                                   </div>
-                                 </div>
-                                 <div class="full testimonial_cont text_align_center">
-                                   <p><strong>texto</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
-                                   <div class="full text_align_center margin_top_30">
-                                      <img src="images/testimonial_qoute.png">
-                                   </div>
-                                 </div>
-                               </div> 
-                           </div>
+                        <div class="carousel-item active">
+                           <div class="testomonial_section">
+                              <div class="full center">
+                                <div class="client_img">
+                                  <img src="images/testimonial.png" alt="#" />
+                                </div>
+                              </div>
+                              <div class="full testimonial_cont text_align_center">
+                                <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
+                                <div class="full text_align_center margin_top_30">
+                                   <img src="images/testimonial_qoute.png">
+                                </div>
+                              </div>
+                            </div> 
+                        </div>
 
                         <div class="carousel-item">
 
@@ -366,7 +360,7 @@
            </div>
         </div>
       </section>
-      end section -->
+      <!-- end section -->
 
       <!-- section -->
       <section id="contact" class="dark_bg_blue layout_padding cross_layout padding_top_0 margin_top_0">
@@ -392,18 +386,18 @@
                            $mensaje="";
 
                            if (isset($_GET['id'])){
-                                 $id = $_GET['id'];
-                                 $statement = $pdo->prepare("SELECT * FROM contacto");
-                                 $statement->bindParam(1, $id);
-                                 if ($statement->execute()) {
+                              $id = $_GET['id'];
+                              $statement = $pdo->prepare("SELECT * FROM contacto");
+                              $statement->bindParam(1, $id);
+                              if ($statement->execute()) {
 
-                                    foreach ($statement->fetchAll() as $row) {
-                                       $nom = $row['nom'];
-                                       $email = $row['email'];
-                                       $telefono = $row['telefono'];
-                                       $mensaje = $row['mensaje'];
-                                    }
+                                 foreach ($statement->fetchAll() as $row) {
+                                    $nom = $row['nom'];
+                                    $email = $row['email'];
+                                    $telefono = $row['telefono'];
+                                    $mensaje = $row['mensaje'];
                                  }
+                              }
                            }
                            ?>
                            <div class="full field">
