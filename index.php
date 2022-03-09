@@ -52,7 +52,7 @@
                            }
                            $sql = "SELECT * FROM opiniones";
                            foreach ($pdo->query($sql) as $row) {
-                              echo $row;
+                              echo $row['nombre'];
                            }
                            ?>
 
