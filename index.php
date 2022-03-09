@@ -50,8 +50,10 @@
                                     header("Location: gracias.php");
                                  };
                            }
-                           $result = $pdo->prepare("SELECT * FROM opiniones");
-                           Alert($result)
+                           $sql = "SELECT * FROM opiniones";
+                           foreach ($pdo->query($sql) as $row) {
+                              echo $row;
+                           }
                            ?>
 
       <!-- loader  
