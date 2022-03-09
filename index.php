@@ -83,7 +83,7 @@
                     <a href="#testimonial">Testimonios</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contáctanos</a>
+                    <a href="about/index.php">Contáctanos</a>
                 </li>
             </ul>
 
