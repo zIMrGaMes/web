@@ -385,7 +385,7 @@
 
                            if (isset($_GET['id'])){
                            $id = $_GET['id'];
-                           $statement = $pdo->prepare("SELECT * FROM marques");
+                           $statement = $pdo->prepare("SELECT * FROM CONTACTO");
                            $statement->bindParam(1, $id);
                            if ($statement->execute()) {
 
