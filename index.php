@@ -326,7 +326,7 @@
                                 <?php
                                        $sql = "SELECT * FROM opiniones WHERE id = 1";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['text'];
+                                          echo $row['texto'];
                                        }
                                     ?>
                                 </i></p>
