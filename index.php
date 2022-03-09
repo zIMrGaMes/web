@@ -31,11 +31,32 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
+   <?php
+   include "db/include/db.php";
+                           if(isset($_POST['submit'])){
+                              // Fetching variables of the form which travels in URL
+                                 $nom = $_POST['nombre'];
+                                 $email = $_POST['email'];
+                                 $telefono = $_POST['telefono'];
+                                 $mensaje = $_POST['mensaje'];
+                                 $statement = $pdo->prepare("INSERT INTO contacto (nombre, email, telefono, mensaje)
+                                 VALUES (?, ?, ?, ?)");
+                                 $statement ->bindParam(1, $nom);
+                                 $statement ->bindParam(2, $email);
+                                 $statement ->bindParam(3, $telefono);
+                                 $statement ->bindParam(4, $mensaje);
+                                 
+                                 if ($statement->execute()){
+                                    header("Location: gracias.php");
+                                 };
+                           }
+
+                           ?>
+      <!-- loader  
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="" /></div>
       </div>
-      <!-- end loader -->
+      end loader -->
    
    <div class="wrapper">
 
@@ -50,19 +71,19 @@
             <ul class="list-unstyled components">
                 
                 <li class="active">
-                    <a href="#home">Home</a>
+                    <a href="#home">Página principal</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
+                    <a href="about/index.php">Sobre Nosotros</a>
                 </li>
                 <li>
-                    <a href="#por_que_elegirnos">Por que elegirnos</a>
+                    <a href="#por_que_elegirnos">¿Por que elegirnos?</a>
                 </li>
                 <li>
-                    <a href="#testimonial">Testimonial</a>
+                    <a href="#testimonial">Testimonios</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="contact.php">Contáctanos</a>
                 </li>
             </ul>
 
@@ -92,7 +113,7 @@
                <div class="col-lg-9">
                   <div class="right_header_info">
                      <ul>
-                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">+34 683 23 35 54</a></li>
+                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">+34  687005345</a></li>
                         <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">info@brumbrummotors.com</a></li>
                         <li><img src="images/search_icon.png" alt="#" /></li>
                          <li>
@@ -117,7 +138,7 @@
                      <p>En este concesionario podrás encontrar todo tipo de coches (Deportivos, eléctricos, híbridos, confort, etc)</p>
                      <div class="button_section">
                         <a href="coches.php">Coches</a>
-                        <a href="about.php">Sobre la empresa</a>
+                        <a href="about/index.php">Sobre la empresa</a>
                      </div>
                   </div>
                </div>
@@ -345,32 +366,54 @@
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading">Contact Us</h2>
+                 <h2 class="heading_main orange_heading">Contáctanos</h2>
                </div>
              </div>
            </div>
            <div class="row">
-                 <div class="full">
+                <div class="main">
                     <div class="contact_form">
-                        <form>
-                          <fieldset class="row">
-                            <div class="full field">
-                              <input type="text" placeholder="Nombre" name="nombre" />
-                            </div>
-                            <div class="full field">
-                              <input type="email" placeholder="Email" name="email" />
-                          </div>
-                            <div class="full field">
-                              <input type="text" placeholder="Teléfono" name="telefono" />
-                            </div>
-                            <div class="full field">
-                              <textarea placeholder="Mensaje"></textarea>
-                            </div>
-                            <div class="full center">
-                              <button class="submit_bt">Enviar</button>
-                            </div>
-                          </fieldset>
-                        </form>
+                        <form method="POST" action="index.php">
+                          <?php
+                           
+
+                           $nom="";
+                           $email="";
+                           $telefono="";
+                           $mensaje="";
+
+                           if (isset($_GET['id'])){
+                           $id = $_GET['id'];
+                           $statement = $pdo->prepare("SELECT * FROM marques");
+                           $statement->bindParam(1, $id);
+                           if ($statement->execute()) {
+
+                           foreach ($statement->fetchAll() as $row) {
+                              $nom = $row['nom'];
+                              $email = $row['email'];
+                              $telefono = $row['telefono'];
+                              $mensaje = $row['mensaje'];
+                           }
+                           }
+                           }
+                           ?>
+                           <div class="full field">
+                              <input id="name" name="nombre" placeholder='Nombre' type='text' value="<?php echo $nom ?>">
+                           </div>
+                           <div class="full field">
+                              <input id="name" name="email" placeholder='Email' type='text' value="<?php echo $email ?>">
+                           </div>
+                           <div class="full field">
+                              <input id="name" name="telefono" placeholder='Teléfono' type='text' value="<?php echo $telefono ?>">
+                           </div>
+                           <div class="full field">
+                              <input id="name" name="mensaje" placeholder='Mensaje' type='text' value="<?php echo $mensaje ?>">
+                           </div>
+                           <div class="full center">
+                              <input id='btn' name="submit" type='submit' value='Guardar'>
+                           </div>
+
+                     </form>
                  </div>
               </div>
             </div>
@@ -402,7 +445,7 @@
                  </div>
                  <div class="full f_menu">
                     <ul>
-                       <li><a href="about.php">Sobre nosotros</a></li>
+                       <li><a href="about/index.php">Sobre nosotros</a></li>
                        <li><a href="coches.php">Nuestros coche</a></li>
                     </ul>
                  </div>
