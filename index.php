@@ -297,8 +297,8 @@
                     <!-- Indicators -->
                            <ul class="carousel-indicators">
                                <li data-target="#testimonial_slider" data-slide-to="0" class="active"></li>
-                               <li data-target="#testimonial_slider" data-slide-to="1"></li>
-                               <li data-target="#testimonial_slider" data-slide-to="2"></li>
+                               <li data-target="#testimonial_slider" data-slide-to="1" class="active"></li>
+                               <li data-target="#testimonial_slider" data-slide-to="2" class="active"></li>
                            </ul>
                      <!-- The slideshow -->
                      <div class="carousel-inner">
@@ -388,18 +388,18 @@
                            $mensaje="";
 
                            if (isset($_GET['id'])){
-                              $id = $_GET['id'];
-                              $statement = $pdo->prepare("SELECT * FROM contacto");
-                              $statement->bindParam(1, $id);
-                              if ($statement->execute()) {
+                                 $id = $_GET['id'];
+                                 $statement = $pdo->prepare("SELECT * FROM contacto");
+                                 $statement->bindParam(1, $id);
+                                 if ($statement->execute()) {
 
-                                 foreach ($statement->fetchAll() as $row) {
-                                    $nom = $row['nom'];
-                                    $email = $row['email'];
-                                    $telefono = $row['telefono'];
-                                    $mensaje = $row['mensaje'];
+                                    foreach ($statement->fetchAll() as $row) {
+                                       $nom = $row['nom'];
+                                       $email = $row['email'];
+                                       $telefono = $row['telefono'];
+                                       $mensaje = $row['mensaje'];
+                                    }
                                  }
-                              }
                            }
                            ?>
                            <div class="full field">
