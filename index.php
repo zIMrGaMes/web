@@ -39,7 +39,7 @@
                                  $email = $_POST['email'];
                                  $telefono = $_POST['telefono'];
                                  $mensaje = $_POST['mensaje'];
-                                 $statement = $pdo->prepare("INSERT INTO contacto (nombre, email, telefono, mensaje)
+                                 $statement = $pdo->prepare("INSERT INTO CONTACTO (nombre, email, telefono, mensaje)
                                  VALUES (?, ?, ?, ?)");
                                  $statement ->bindParam(1, $nom);
                                  $statement ->bindParam(2, $email);
