@@ -310,7 +310,14 @@
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
+                                <p><strong>
+                                <?php
+                                    $sql = "SELECT * FROM opiniones";
+                                    foreach ($pdo->query($sql) as $row) {
+                                       echo $row['nombre'];
+                                    }
+                                 ?>
+                                </strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
