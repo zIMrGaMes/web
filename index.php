@@ -426,7 +426,7 @@
            </div>
            <div class="row">
 
-                        <form style="width: 25vw; margin-left : 25vw;" method="POST" action="index.php">
+                        <form style="width: 40vw; margin-left : 40vw;" method="POST" action="index.php">
                           <?php
                            
 
