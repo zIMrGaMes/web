@@ -268,18 +268,50 @@
               <div class="col-lg-4">
                  <div class="full">
                     <div class="choose_blog text_align_center">
-                        <img src="images/c2_icon.png" />
-                        <h4>AMPLIA GAMA DE MARCAS</h4>
-                        <p>Trabajamos con todo tipo de marcas de coches.</p>
+                    <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
                     </div>
                  </div>
               </div>
               <div class="col-lg-4">
                  <div class="full">
                     <div class="choose_blog text_align_center">
-                        <img src="images/c3_icon.png" />
-                        <h4>CONFIADO POR MILES</h4>
-                        <p>Llevamos mas de 7 años en el mercado y estamos recomendados por miles de clientes.</p>
+                    <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
                     </div>
                  </div>
               </div>
