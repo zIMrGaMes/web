@@ -233,7 +233,7 @@
                   <p class="large">Aqui podras encontrar nuestra amplio catálogo</p>
                </div>
                <div class="full button_section margin_top_30">
-                    <a href="#">Ver mas</a>
+                    <a href="coches.php">Ver mas</a>
                   </div>
             </div>
 
