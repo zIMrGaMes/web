@@ -114,8 +114,22 @@
                <div class="col-lg-9">
                   <div class="right_header_info">
                      <ul>
-                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">+34  687005345</a></li>
-                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">info@brumbrummotors.com</a></li>
+                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">
+                        <?php
+                                       $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['telefono'];
+                                       }
+                                    ?>
+                        </a></li>
+                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">
+                        <?php
+                                       $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['correo'];
+                                       }
+                                    ?>
+                        </a></li>
                         <li><img src="images/search_icon.png" alt="#" /></li>
                          <li>
                            <button type="button" id="sidebarCollapse">
