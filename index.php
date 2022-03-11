@@ -426,7 +426,7 @@
            </div>
            <div class="row">
 
-                        <form style=width method="POST" action="index.php">
+                        <form style="width" method="POST" action="index.php">
                           <?php
                            
 
