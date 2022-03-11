@@ -49,10 +49,6 @@
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Casa.html">Casa</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">About</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">Contact</a>
-</li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
