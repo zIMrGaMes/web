@@ -230,7 +230,7 @@
       <!-- end section -->
 
       <!-- section -->
-      <section id="why_choose_us" class="dark_bg_blue layout_padding cross_layout padding_top_0">
+      <section id="por_que_elegirnos" class="dark_bg_blue layout_padding cross_layout padding_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
