@@ -506,7 +506,28 @@
                  <div class="full">
                    <h4 class="widget_heading">Contacto</h4>
                    <div class="full cont_footer">
-                     <p><strong>Brum Brum Motors: Dirección postal</strong><br><br>Calle Era 28, 07198, España<br>Teléfono: +34 683 23 35 54<br>info@brumbrummotors.com</p>
+                     <p><strong>Brum Brum Motors:</strong><br><br>
+                     <?php 
+                        $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                        foreach ($pdo->query($sql) as $row) {
+                        echo $row['direccion'];
+                        }
+                     ?>
+                     <br>
+                     <?php 
+                        $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                        foreach ($pdo->query($sql) as $row) {
+                        echo $row['telefono'];
+                        }
+                     ?>
+                     <br>
+                     <?php 
+                        $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                        foreach ($pdo->query($sql) as $row) {
+                        echo $row['correo'];
+                        }
+                     ?>
+                  </p>
                    </div>
                  </div>
               </div>
