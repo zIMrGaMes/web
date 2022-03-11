@@ -303,13 +303,19 @@
                            <div class="testomonial_section">
                               <div class="full center">
                                 <div class="client_img">
-                                  <img src="images/testimonial.png" alt="#" />
+                                  <img src="                                
+                                  <?php
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" alt="#" />
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
                                 <p><strong>
                                 <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 1";
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['nombre'];
                                        }
@@ -317,14 +323,14 @@
 
                                 </strong><br><strong class="ornage_color">
                                 <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 1";
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['trabajo'];
                                        }
                                     ?>
                                 </strong><br><i>
                                 <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 1";
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
