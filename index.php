@@ -58,7 +58,7 @@
          <div class="loader"><img src="images/loading.gif" alt="" /></div>
       </div>
       end loader -->
-<section id="testimonial" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
+   
    <div class="wrapper">
 
       <div class="sidebar">
@@ -90,7 +90,7 @@
 
         </nav>
       </div>
-                        </section>
+
 
       <div id="content">
 
@@ -230,7 +230,7 @@
       <!-- end section -->
 
       <!-- section -->
-      <section id="por_que_elegirnos" class="dark_bg_blue layout_padding cross_layout padding_top_0">
+      <section id="why_choose_us" class="dark_bg_blue layout_padding cross_layout padding_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
