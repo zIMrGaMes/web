@@ -463,7 +463,7 @@
                               <input id="name" name="mensaje" placeholder='Mensaje' type='text' value="<?php echo $mensaje ?>">
                            </div>
                            <div class="full center">
-                              <input id='btn' name="submit" type='submit' value='Guardar'>
+                              <input id='btn' name="submit" type='submit' value='Enviar'>
                            </div>
 
                      </form>
