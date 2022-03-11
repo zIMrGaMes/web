@@ -199,7 +199,7 @@
                   <p class="large">Somos un concesionario que vende todo tipo de coches.</p>
                </div>
                <div class="full button_section margin_top_30">
-                        <a href="#">Leer mas</a>
+                        <a href="about/index.php">Leer mas</a>
                      </div>
             </div>
 
