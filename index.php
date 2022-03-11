@@ -243,9 +243,25 @@
               <div class="col-lg-4">
                  <div class="full">
                     <div class="choose_blog text_align_center">
-                        <img src="images/c1_icon.png" />
-                        <h4>FINANCIAMIENTO FÁCIL</h4>
-                        <p>Ofrecemos planes de financiamiento de bajo costo de comisión de hasta 5 años.</p>
+                        <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
                     </div>
                  </div>
               </div>
