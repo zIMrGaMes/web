@@ -58,7 +58,7 @@
          <div class="loader"><img src="images/loading.gif" alt="" /></div>
       </div>
       end loader -->
-   
+<section id="por_que_elegirnos" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
    <div class="wrapper">
 
       <div class="sidebar">
@@ -90,7 +90,7 @@
 
         </nav>
       </div>
-
+</section>
 
       <div id="content">
 
