@@ -425,8 +425,7 @@
              </div>
            </div>
            <div class="row">
-                <div class="main">
-                    <div class="contact_form">
+
                         <form method="POST" action="index.php">
                           <?php
                            
@@ -468,8 +467,7 @@
                            </div>
 
                      </form>
-                 </div>
-              </div>
+
             </div>
         </div>
       </section>
