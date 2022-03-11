@@ -130,7 +130,7 @@
                                        }
                                     ?>
                         </a></li>
-                        <li><img src="images/search_icon.png" alt="#" /></li>
+
                          <li>
                            <button type="button" id="sidebarCollapse">
                               <img src="images/menu_icon.png" alt="#" />
