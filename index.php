@@ -498,7 +498,7 @@
                  <div class="full f_menu">
                     <ul>
                        <li><a href="about/index.php">Sobre nosotros</a></li>
-                       <li><a href="coches.php">Nuestros coche</a></li>
+                       <li><a href="coches.php">Nuestros coches</a></li>
                     </ul>
                  </div>
               </div>
