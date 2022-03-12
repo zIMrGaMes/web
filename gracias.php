@@ -32,48 +32,6 @@
    <!-- body -->
    <body class="main-layout">
            <!-- Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo -->
-  
-           <section>
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-5">
-                  <div class="full slider_cont_section">
-                     <h4>Bienvenido a:</h4>
-                     <h3>Brum Brum</h3>
-                     <p>En este concesionario podrás encontrar todo tipo de coches (Deportivos, eléctricos, híbridos, confort, etc)</p>
-                     <div class="button_section">
-                        <a href="coches.php">Coches</a>
-                        <a href="about/index.php">Sobre la empresa</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-7">
-                 <div id="slider_main" class="carousel slide" data-ride="carousel">
-                     <!-- The slideshow -->
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img src="images/slider_1.png" alt="#" />
-                        </div>
-                        <div class="carousel-item">
-                           <img src="images/slider_2.png" alt="#" />
-                        </div>
-                     </div>
-                     <div class="full center">
-                        <a class="carousel-control-prev" href="#slider_main" data-slide="prev">
-                          <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        </a>
-                        <a class="carousel-control-next" href="#slider_main" data-slide="next">
-                          <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end header -->
-            </div>
-         </div>
-      </section>
+
    </body>
 </html>
