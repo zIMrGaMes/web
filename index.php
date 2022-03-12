@@ -367,8 +367,7 @@
                                 <div class="client_img">
                                   <img src="                                
                                   <?php
-                                       $random = echo rand(3, 5);
-                                       $sql = "SELECT * FROM opiniones WHERE id = $random";
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
