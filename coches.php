@@ -31,6 +31,9 @@
    </head>
    <!-- body -->
    <body class="main-layout">
+<?php
+   include "db/include/db.php";
+?>
    <section id="por_que_elegirnos" class="dark_bg_blue layout_padding cross_layout padding_top_0">
         <div class="container">
            <div class="row">
