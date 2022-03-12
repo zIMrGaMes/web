@@ -31,6 +31,98 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-       
+   <section id="por_que_elegirnos" class="dark_bg_blue layout_padding cross_layout padding_top_0">
+        <div class="container">
+           <div class="row">
+             <div class="col-md-12">
+               <div class="full center">
+                 <h2 class="heading_main orange_heading">Por que elegirnos</h2>
+               </div>
+             </div>
+           </div>
+           <div class="row">
+              <div class="col-lg-4">
+                 <div class="full">
+                    <div class="choose_blog text_align_center">
+                        <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-4">
+                 <div class="full">
+                    <div class="choose_blog text_align_center">
+                    <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-4">
+                 <div class="full">
+                    <div class="choose_blog text_align_center">
+                    <img src="
+                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" />
+                        <h4>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['tipo'];
+                                       }
+                                    ?></h4>
+                        <p>                        <?php
+                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['texto'];
+                                       }
+                                    ?></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-12 margin_top_30">
+                <div class="full center button_section margin_top_30">
+                    <a class="margin_top_30" href="">Leer mas</a>
+                  </div>
+              </div>
+           </div>
+        </div>
+      </section>
    </body>
 </html>
