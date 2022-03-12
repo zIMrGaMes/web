@@ -426,7 +426,7 @@
            </div>
            <div class="row">
 
-                        <form style="width: 25vw; margin-left : 25vw;" method="POST" action="index.php">
+           <form class="form-horizontal" style="margin:0 auto">
                           <?php
                            
 
@@ -450,21 +450,42 @@
                               }
                            }
                            ?>
-                           <div class="full field">
-                              <input id="name" name="nombre" placeholder='Nombre' type='text' value="<?php echo $nom ?>">
-                           </div>
-                           <div class="full field">
-                              <input id="name" name="email" placeholder='Email' type='text' value="<?php echo $email ?>">
-                           </div>
-                           <div class="full field">
-                              <input id="name" name="telefono" placeholder='Teléfono' type='text' value="<?php echo $telefono ?>">
-                           </div>
-                           <div class="full field">
-                              <input id="name" name="mensaje" placeholder='Mensaje' type='text' value="<?php echo $mensaje ?>">
-                           </div>
-                           <div class="full center">
-                              <input id='btn' name="submit" type='submit' value='Enviar'>
-                           </div>
+
+
+            <div class="form-group">
+               <label class="col-lg-8 control-label">Nombre</label>
+               <div class="col-lg-4">
+                  <input id="name" name="nombre" placeholder='Nombre' type='text' value="<?php echo $nom ?>">
+               </div>
+            </div>
+
+            <div class="form-group">
+               <label class="col-lg-8 control-label">Correo Electrónico</label>
+               <div class="col-lg-4">
+                  <input id="name" name="email" placeholder='Email' type='text' value="<?php echo $email ?>">
+               </div>
+            </div>
+
+            <div class="form-group">
+               <label class="col-lg-8 control-label">Teléfono</label>
+               <div class="col-lg-4">
+                  <input id="name" name="telefono" placeholder='Teléfono' type='text' value="<?php echo $telefono ?>">
+               </div>
+            </div>
+
+            <div class="form-group">
+               <label class="col-lg-8 control-label">Mensaje</label>
+               <div class="col-lg-4">
+                  <input id="name" name="mensaje" placeholder='Mensaje' type='text' value="<?php echo $mensaje ?>">
+               </div>
+            </div>
+
+            <div class="form-group">
+               <div class="">
+                  <button type="submit" class="btn btn-success left">Enviar</button>
+               </div>
+            </div>
+
 
                      </form>
 
