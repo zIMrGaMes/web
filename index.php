@@ -426,7 +426,8 @@
            </div>
            <div class="row">
 
-           <form class="form-horizontal" style="margin:0 auto">
+           <form class="form-horizontal" style="margin:0 auto" method="POST">
+                          
                           <?php
                            
 
