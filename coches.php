@@ -187,24 +187,26 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                     <img src="
-                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                    <?php
+                                       $sql = "SELECT * FROM coches WHERE id = 6";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
                                     ?>" />
                         <h4>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 6";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['tipo'];
+                                          echo $row['marca'];
+                                          echo " ";
+                                          echo $row['modelo'];
                                        }
                                     ?></h4>
                         <p>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 6";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
-                        ?></p>
+                                    ?></p>
                     </div>
                  </div>
               </div>
