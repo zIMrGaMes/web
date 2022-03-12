@@ -31,6 +31,8 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-       
+        <h1>
+           Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo
+        </h1>
    </body>
 </html>
