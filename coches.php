@@ -75,20 +75,22 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                     <img src="
-                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                    <?php
+                                       $sql = "SELECT * FROM coches WHERE id = 2";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
                                     ?>" />
                         <h4>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 2";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['tipo'];
+                                          echo $row['marca'];
+                                          echo " ";
+                                          echo $row['modelo'];
                                        }
                                     ?></h4>
                         <p>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 2";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
@@ -100,20 +102,22 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                     <img src="
-                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                    <?php
+                                       $sql = "SELECT * FROM coches WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
                                     ?>" />
                         <h4>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       $sql = "SELECT * FROM coches WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['tipo'];
+                                          echo $row['marca'];
+                                          echo " ";
+                                          echo $row['modelo'];
                                        }
                                     ?></h4>
                         <p>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 3";
+                                       $sql = "SELECT * FROM coches WHERE id = 3";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
@@ -130,19 +134,21 @@
                     <div class="choose_blog text_align_center">
                         <img src="
                         <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       $sql = "SELECT * FROM coches WHERE id = 4";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
                                     ?>" />
                         <h4>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       $sql = "SELECT * FROM coches WHERE id = 4";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['tipo'];
+                                          echo $row['marca'];
+                                          echo " ";
+                                          echo $row['modelo'];
                                        }
                                     ?></h4>
                         <p>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 1";
+                                       $sql = "SELECT * FROM coches WHERE id = 4";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
@@ -154,20 +160,22 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                     <img src="
-                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                    <?php
+                                       $sql = "SELECT * FROM coches WHERE id = 5";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['imagen'];
                                        }
                                     ?>" />
                         <h4>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 5";
                                        foreach ($pdo->query($sql) as $row) {
-                                          echo $row['tipo'];
+                                          echo $row['marca'];
+                                          echo " ";
+                                          echo $row['modelo'];
                                        }
                                     ?></h4>
                         <p>                        <?php
-                                       $sql = "SELECT * FROM elegirnos WHERE id = 2";
+                                       $sql = "SELECT * FROM coches WHERE id = 5";
                                        foreach ($pdo->query($sql) as $row) {
                                           echo $row['texto'];
                                        }
