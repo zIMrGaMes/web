@@ -31,9 +31,93 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-        <h1>
-           Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo
-           <section>
+           <!-- Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo -->
+  
+   <div class="wrapper">
+
+      <div class="sidebar">
+         <!-- Sidebar  -->
+        <nav id="sidebar">
+
+            <div id="dismiss">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+
+            <ul class="list-unstyled components">
+                
+                <li class="active">
+                    <a href="#home">Página principal</a>
+                </li>
+                <li>
+                    <a href="about/index.php">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="#por_que_elegirnos">¿Por que elegirnos?</a>
+                </li>
+                <li>
+                    <a href="#testimonial">Testimonios</a>
+                </li>
+                <li>
+                    <a href="about/index.php">Contáctanos</a>
+                </li>
+            </ul>
+
+        </nav>
+      </div>
+
+
+      <div id="content">
+
+
+      <!-- section -->
+      <section id="home" class="top_section">
+         <div class="row">
+            <div class="col-lg-12">
+               <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-9">
+                  <div class="right_header_info">
+                     <ul>
+                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">
+                        <?php
+                                       $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['telefono'];
+                                       }
+                                    ?>
+                        </a></li>
+                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">
+                        <?php
+                                       $sql = "SELECT * FROM datos_contacto WHERE id = 1";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['correo'];
+                                       }
+                                    ?>
+                        </a></li>
+
+                         <li>
+                           <button type="button" id="sidebarCollapse">
+                              <img src="images/menu_icon.png" alt="#" />
+                           </button>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
+      <section>
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-5">
@@ -75,6 +159,5 @@
             </div>
          </div>
       </section>
-        </h1>
    </body>
 </html>
