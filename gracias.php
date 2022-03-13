@@ -45,24 +45,12 @@
               <div class="col-md-12">
                 <div class="full">
                   <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                           <ul class="carousel-indicators">
-                               <li data-target="#testimonial_slider" data-slide-to="0" class="active"></li>
-                               <li data-target="#testimonial_slider" data-slide-to="1"></li>
-                               <li data-target="#testimonial_slider" data-slide-to="2"></li>
-                           </ul>
-                     <!-- The slideshow -->
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="testomonial_section">
+
                               <div class="full center">
                               </div>
                               <div class="full testimonial_cont text_align_center">
                                 <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
                                 <div class="full text_align_center margin_top_30">
-                                </div>
-                              </div>
-                            </div> 
                         </div>
                      </div>
                   </div>
