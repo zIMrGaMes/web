@@ -37,7 +37,7 @@
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading"> Gracias por contactarnos. </h2>
+                 <h2 class="heading_main orange_heading"> Gracias por contactarnos! </h2>
                </div>
              </div>
            </div>
@@ -49,7 +49,7 @@
                               <div class="full center">
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
+                                <p><strong></strong><br><strong class="ornage_color"></strong><br><i>Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo</i></p>
                                 <div class="full text_align_center margin_top_30">
                         </div>
                      </div>
