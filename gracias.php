@@ -49,7 +49,7 @@
                               <div class="full center">
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong></strong><br><strong class="ornage_color"></strong><br><i>Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo</i></p>
+                                <p><strong></strong><br><strong class="ornage_color"></strong><br><h1>Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo</h1></p>
                                 <div class="full text_align_center margin_top_30">
                         </div>
                      </div>
