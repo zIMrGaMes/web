@@ -32,7 +32,7 @@
    <!-- body -->
    <body class="main-layout">
            <!-- Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo -->
-        <section id="testimonial" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
+           <section id="testimonial" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
@@ -57,39 +57,56 @@
                            <div class="testomonial_section">
                               <div class="full center">
                                 <div class="client_img">
-                                  <img src="                                
-                                  <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
-                                       foreach ($pdo->query($sql) as $row) {
-                                          echo $row['imagen'];
-                                       }
-                                    ?>" alt="#" />
+                                  <img src="images/testimonial.png" alt="#" />
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>
-                                <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
-                                       foreach ($pdo->query($sql) as $row) {
-                                          echo $row['nombre'];
-                                       }
-                                    ?>
-
-                                </strong><br><strong class="ornage_color">
-                                <?php
-                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
-                                       foreach ($pdo->query($sql) as $row) {
-                                          echo $row['trabajo'];
-                                       }
-                                    ?>
-                                </strong><br><i>Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo</i></p>
+                                <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
                               </div>
                             </div> 
                         </div>
+
+                        <div class="carousel-item">
+
+                           <div class="testomonial_section">
+                              <div class="full center">
+                                <div class="client_img">
+                                  <img src="images/testimonial.png" alt="#" />
+                                </div>
+                              </div>
+                              <div class="full testimonial_cont text_align_center">
+                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <div class="full text_align_center margin_top_30">
+                                   <img src="images/testimonial_qoute.png">
+                                </div>
+                              </div>
+                            </div>  
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                           <div class="testomonial_section">
+                              <div class="full center">
+                                <div class="client_img">
+                                  <img src="images/testimonial.png" alt="#" />
+                                </div>
+                              </div>
+                              <div class="full testimonial_cont text_align_center">
+                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <div class="full text_align_center margin_top_30">
+                                   <img src="images/testimonial_qoute.png">
+                                </div>
+                              </div>
+                            </div>  
+
+                        </div>
+
                      </div>
+                    
                   </div>
                 </div>
               </div>
