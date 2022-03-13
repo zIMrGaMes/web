@@ -56,14 +56,10 @@
                         <div class="carousel-item active">
                            <div class="testomonial_section">
                               <div class="full center">
-                                <div class="client_img">
-                                  <img src="images/testimonial.png" alt="#" />
-                                </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
                                 <p><strong>Eric García</strong><br><strong class="ornage_color">Alquileres</strong><br><i>He quedado encantado con este concesionario, tienen un muy buen servicio, el coche que compré vino en perfectas condiciones y con un olor a perfume. Le doy mis 5 estrellas.</i></p>
                                 <div class="full text_align_center margin_top_30">
-                                   <img src="images/testimonial_qoute.png">
                                 </div>
                               </div>
                             </div> 
