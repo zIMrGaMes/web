@@ -32,6 +32,69 @@
    <!-- body -->
    <body class="main-layout">
            <!-- Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo -->
+        <section id="testimonial" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
+        <div class="container">
+           <div class="row">
+             <div class="col-md-12">
+               <div class="full center">
+                 <h2 class="heading_main orange_heading">Testimonios</h2>
+               </div>
+             </div>
+           </div>
+           <div class="row">
+              <div class="col-md-12">
+                <div class="full">
+                  <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                           <ul class="carousel-indicators">
+                               <li data-target="#testimonial_slider" data-slide-to="0" class="active"></li>
+                               <li data-target="#testimonial_slider" data-slide-to="1"></li>
+                               <li data-target="#testimonial_slider" data-slide-to="2"></li>
+                           </ul>
+                     <!-- The slideshow -->
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="testomonial_section">
+                              <div class="full center">
+                                <div class="client_img">
+                                  <img src="                                
+                                  <?php
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['imagen'];
+                                       }
+                                    ?>" alt="#" />
+                                </div>
+                              </div>
+                              <div class="full testimonial_cont text_align_center">
+                                <p><strong>
+                                <?php
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['nombre'];
+                                       }
+                                    ?>
 
+                                </strong><br><strong class="ornage_color">
+                                <?php
+                                       $sql = "SELECT * FROM opiniones WHERE id = 3";
+                                       foreach ($pdo->query($sql) as $row) {
+                                          echo $row['trabajo'];
+                                       }
+                                    ?>
+                                </strong><br><i>Gracias por contactarnos. Nos pondremos en contacto contigo en cuanto nos sea posible. Un saludo</i></p>
+                                <div class="full text_align_center margin_top_30">
+                                   <img src="images/testimonial_qoute.png">
+                                </div>
+                              </div>
+                            </div> 
+                        </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
+      </section>
    </body>
 </html>
